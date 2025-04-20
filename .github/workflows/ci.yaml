@@ -19,10 +19,10 @@ jobs:
         uses: actions/setup-node@v3
 
       - name: install dependencies
-        uses: npm install
+        run: npm install
 
       - name: run tests
-        uses: npm test
+        run: npm test
 
       - name: build project
-        uses: npm run build
+        run: npm run build
