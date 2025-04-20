@@ -1,7 +1,7 @@
 import "./App.css";
 
 function App() {
-  return <div className="App">tsfs dsfest</div>;
+  return <div className="App">dsfest</div>;
 }
 
 export default App;
